@@ -9,12 +9,12 @@ The project includes model training, evaluation, and a **Streamlit web app** for
 - Uses **TF-IDF vectorization**
 - Trained with multiple ML models (best model saved)
 - Interactive **Streamlit UI**
-- Shows prediction confidence (if supported)
+- Shows prediction confidence
 - Lightweight & fast inference
 
 
 ## 🧠 Machine Learning Models Used to select the best Model
-- Multinomial Naive Bayes
+- Multinomial Naive Bayes (Used as the Final Model)
 - Logistic Regression
 - Support Vector Machine (Linear)
 - Random Forest
@@ -25,16 +25,17 @@ The project includes model training, evaluation, and a **Streamlit web app** for
 
 > Final model was selected based on Precision and Accuracy.
 
+Dataset used is [`SMS Spam Collection Dataset`](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
+
 
 ## 🛠️ Tech Stack
 - **Python**
-- **Scikit-learn**
-- **NLTK**
-- **XGBoost**
-- **Streamlit**
-- **Pickle**
 - **Pandas**
 - **Numpy**
+- **Scikit-learn**
+- **NLTK**
+- **Streamlit**
+- **Pickle**
 
 
 
